@@ -1,7 +1,7 @@
-Irina Dzemidavets
-belchenok99@gmail.com
-+375295977850
-Orsha,Belarus
-I want to become Frontend Developer
-Belarusian State Academy Communication
-English(A1),Russian
+Irina Dzemidavets    Telecommunication engineer
+ E-mail: belchenok99@gmail.com
+Phone: +375295977850
+ Address: Orsha,Belarus
+About me: I want to become Frontend Developer
+Education: Belarusian State Academy Communication
+Longuages: English(A1),Russian
