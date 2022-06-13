@@ -1,1 +1,100 @@
-#index.html
+<html lang="en" >
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> 
+</head>
+<body>
+  <header class=”header”>
+    <div class=”container”>
+       <nav class="nav">
+         <ul class="nav-list">
+           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+           <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+           <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+           <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+           <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+         </ul>
+      </nav>
+    </div>
+  </header>
+   <main class=”main”>
+       <div class=”container”>
+         <section class=”section” id=”profile”>
+          <img src="./assets/img/myphoto.jpeg" alt="my photo" width="500px" height="500px">
+            <p>
+             <h1 class=”section-title>Irina Demidavets</h1>
+             <h2  class=”section-title>Telecommunication engineer</h2>
+           </p>
+         </section>
+            <section class=”section” id=”contacts”>
+               <h2 class=”section-title> 
+                  <ul>  
+                    <h2>Contacts:</h2>
+                    <li>GitHub: vrednaja</li>
+                    <li>E-mail: belchenok99@gmail.com </li>
+                    <li>Phone: +375295977850</li>
+                    <li> Address: Orsha,Belarus </li>
+                  </ul>
+               </h2>
+             </section>
+                <section class=”section” id=”summary”>
+                  <h2 class=”section-title>
+                    <p>About me:</p>
+                       I want to become Frontend Developer Education
+                 </h2>
+               </section>
+               <section class=”section” id=”skills”>
+                <h2 class=”section-title> 
+                   <ul>  
+                     <h2>Skills:</h2>
+                     <li>HTML</li>
+                     <li>CSS </li>
+                     <li>Git/GitHub</li>
+                   </ul>
+                </h2>
+              </section>
+                 <section class=”section” id=”code”>
+                    <h2 class=”section-title>
+                        <p>Code:</p>
+                           function explode(s) {
+                           const array = s.split('');
+                           let result = array.map(number => number.repeat(parseInt(number)));
+                           return result.join('');
+                           }
+                     </h2>
+                 </section>
+                   <section class=”section” id=”education”>
+                       <h2 class=”section-title>
+                         <p>Education:</p>
+                            Belarusian State Academy Communication
+                       </h2>
+                   </section>
+                     <section class=”section” id=”languages”>
+                       <h2 class=”section-title>
+                          <ul>
+                            <h2>Languages:</h2>
+                              <li>English(A1)</li>
+                              <li>Russian</li>
+                          </ul>  
+                       </h2>
+                     </section>
+       </div>
+   </main>
+     <footer class=”footer”>
+        <div class=”container”>
+          <a href="https://rs.school/js/" class="link-rsshool"></a>
+          <a href="https://github.com/Vrednaja" class="link-github"></a>
+          <a href="https://" class="link-year"></a>
+       </div>
+     </footer>
+</body>
+</html>
