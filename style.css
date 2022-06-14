@@ -23,6 +23,13 @@
 * {
     box-sizing: border-box;
   }
+  .link-rsshool {
+    justify-content: space-between;
+  }
+  .link-github {
+    margin-left;
+  }
+  
   body {
     min-height: 100vh; 
     margin: 0 ;
@@ -94,3 +101,5 @@
     height: 10px; 
     border: 1px solid #829985;
     border-radius: 50%;
+  }
+    
